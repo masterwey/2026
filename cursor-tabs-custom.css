@@ -1,0 +1,35 @@
+/* Cursor 激活标签页蓝色上下划线样式 */
+
+/* 为激活的标签页添加上下蓝色边框 */
+.tabs-container .tab.active {
+    border-top: 2px solid #007acc !important;
+    border-bottom: 2px solid #007acc !important;
+    background-color: rgba(0, 122, 204, 0.1) !important;
+}
+
+/* 鼠标悬停时的效果 */
+.tabs-container .tab.active:hover {
+    border-top: 3px solid #0066cc !important;
+    border-bottom: 3px solid #0066cc !important;
+}
+
+/* 确保边框显示 */
+.tabs-container .tab {
+    border: none !important;
+}
+
+/* 激活标签页的文本颜色 */
+.tabs-container .tab.active .tab-label {
+    color: #007acc !important;
+    font-weight: 600 !important;
+}
+
+/* 可选：为所有标签页添加底部边框 */
+.tabs-container .tab {
+    border-bottom: 1px solid #e1e4e8 !important;
+}
+
+/* 激活标签页的底部边框覆盖 */
+.tabs-container .tab.active {
+    border-bottom: 2px solid #007acc !important;
+} 

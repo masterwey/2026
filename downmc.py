@@ -1,0 +1,2 @@
+loadfile D:/A/Z4C60V01_2025_08_01_194408.hex
+verifyfile D:/A/Z4C60V01_2025_08_01_194408.hex
